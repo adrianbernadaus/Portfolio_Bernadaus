@@ -21,9 +21,6 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf)
-
-console.log("System Initialized: Portfolio Prime V2")
-
 initVoidBackground('void-background');
 renderBentoGrid('bento-grid-container');
 renderDock('dock-container');
